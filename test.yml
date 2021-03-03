@@ -3,5 +3,5 @@ parameters:
   
 steps:
 - script: dotnet build --configuration ${{ configuration }}
-  displayName: 'dotnet build ${{ configuration }}
+  displayName: 'dotnet build ${{ configuration }}'
   

@@ -1,7 +1,7 @@
-parameters:
+params:
   configuration: ''
   
 steps:
-- script: dotnet build --configuration ${{ parameters.configuration }}
-  displayName: 'dotnet build ${{ parameters.configuration }}'
+- script: dotnet build --configuration ${{ params.configuration }}
+  displayName: 'dotnet build ${{ params.configuration }}'
   
